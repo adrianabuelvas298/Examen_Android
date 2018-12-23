@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">The test</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txtUsername">Username</string>
+    <string name="txtPassword">Password</string>
+    <string name="btnLogin">Login</string>
+    <string name="textoRegister">Dont have an account?</string>
+    <string name="btnregister">Sing in</string>
+    <string name="imglogo"></string>
+    <string name="txtfirtsname">First name</string>
+    <string name="txtlastname">Last name</string>
+    <string name="txtusernameregister">Username</string>
+    <string name="txtpasswordregister">Password</string>
+    <string name="txtconfirmpasswordregister">Confirm  password</string>
+    <string name="txtemail">Email</string>
+    <string name="btnregisteruser">Register</string>
+</resources>
