@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.adriana.myapplication">
 
+
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -17,7 +18,28 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:scheme="http"
+                    android:host="www.recipe-app.com"
+                    android:pathPrefix="/recipe" />
+            </intent-filter>
         </activity>
+        <activity
+            android:name=".Registrar"
+            android:label="Registrar"
+            android:parentActivityName=".MainActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
         <activity android:name=".Main2Activity"></activity>
     </application>
 
